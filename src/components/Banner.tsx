@@ -2,8 +2,8 @@ import heroImg from "../assets/banner-stack.png";
 
 const Banner = () => {
   return (
-    <section className="bg-white overflow-hidden">
-      <div className="container mx-auto px-4 sm:px-6 py-12 md:py-16 lg:pb-24 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-12 items-center">
+    <section className="bg-white overflow-hidden pb-0">
+      <div className="container mx-auto px-4 sm:px-6 pt-10 md:pt-14 pb-8 md:pb-12 grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-12 items-center">
         {/* Left Side: Text Content */}
         <div className="space-y-6 flex flex-col justify-center items-center md:items-start text-center md:text-left">
           {/* Responsive Heading */}
