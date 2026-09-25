@@ -228,8 +228,13 @@ const TechnologySection = () => {
                       </div>
                     ))}
                   </div>
-
                   {/* button start */}
+                  <button
+                    onClick={handleRemoveAll}
+                    className="w-full mt-4 py-2.5 rounded-xl border border-red-200 text-red-500 hover:bg-red-50 hover:border-red-300 font-semibold text-xs transition-all flex items-center justify-center gap-1.5 cursor-pointer shadow-xs active:scale-98"
+                  >
+                    <span>✕</span> Remove All
+                  </button>
                 </div>
               )}
             </div>
