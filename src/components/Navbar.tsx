@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-b border-gray-100 relative">
+    <nav className="sticky top-0 z-50 bg-white border-b border-gray-100">
       <div className="container mx-auto h-20 flex justify-between items-center px-4 md:px-6">
         {/* Left Section: Mobile Menu Button */}
         <div className="flex items-center md:hidden">
