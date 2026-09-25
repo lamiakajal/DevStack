@@ -5,6 +5,7 @@ DevStack is a curated platform for developers to explore frontend, backend, data
 ## Live Demo
 
 - **Live Site:** [(https://dev-stack-peach-chi.vercel.app)]
+- **Live Site:** [(https://devstack-lamia.netlify.app/)]
 - **GitHub Live Site:** [(https://lamiakajal.github.io/DevStack/)]
 
 ## Technologies Used
