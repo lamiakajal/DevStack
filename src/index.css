@@ -1,5 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 @import "tailwindcss";
 
-@theme {
-  --color-navtext: #475569;
+/* Global Font & Text Setup */
+body {
+  font-family: "Inter", sans-serif;
+  color: #0f172a;
+}
+
+/* Default Paragraph Styling */
+p {
+  color: #475569;
+}
+
+/* Reusable Colors */
+.text-nav {
+  color: #475569;
+}
+
+/* Gradient Text Shortcut */
+.text-gradient-brand {
+  background-image: linear-gradient(to right, #fb923c, #ec4899, #9333ea);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
