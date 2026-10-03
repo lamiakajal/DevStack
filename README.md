@@ -34,7 +34,7 @@ JSX stands for JavaScript XML. It is a syntax extension that allows us to write 
 - **Props (Properties):** Read-only data passed from a parent component down to a child component. Props cannot be modified by the receiving child component.
 - **State:** Internal, mutable data managed directly within a component. When state changes, React automatically re-renders the component to reflect the new data.
 
-### 3. What does the `useState` hook do, and where did you use it in this project?
+### 3. What does the `useState` hook do, and where did you use it in this project? 
 
 The `useState` hook allows functional components to declare and track local reactive state variables. In this project, `useState` is used in `TechnologySection.tsx` to manage:
 
