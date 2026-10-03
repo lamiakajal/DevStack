@@ -57,7 +57,7 @@ Conditional rendering is the practice of displaying different UI elements based 
 ```tsx
 {
   selectedStack.length === 0 ? (
-    <div className="border border-dashed ...">
+    <div className="border border-dashed ..."> 
       <p>No technology selected yet.</p>
     </div>
   ) : (
